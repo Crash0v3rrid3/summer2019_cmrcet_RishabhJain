@@ -1,0 +1,41 @@
+<div id="team-detail">
+    <div id="team-name" class="column">
+        <h1 class="title is-1 w3-animate-right">{{ team.name }}</h1>
+    </div>
+    <div id="team-timeline" class="column">
+        <div class="timeline">
+            {% for season in positions %}
+                <div class="timeline-item
+                        {% if season.1 == 1 %}
+                            is-primary
+                        {% elif season.1 == 2 %}
+                            is-warning
+                        {% else %}
+                            is-danger
+                        {% endif %}
+                    ">
+                    <div class="timeline-marker is-icon">
+                        {% if season.1 == 1 %}
+                            <i class="fa fa-trophy"></i>
+                        {% elif season.1 == 2 %}
+                            <i class="fa fa-thumbs-up"></i>
+                        {% else %}
+                            <i class="fa fa-thumbs-down"></i>
+                        {% endif %}
+                    </div>
+                    <div class="timeline-content">
+                      <p class="heading">IPL {{ season.0 }}</p>
+                        {% if season.1 == 1 %}
+                            <p>Won the tournament</p>
+                        {% elif season.1 == 2 %}
+                            <p>Runner up's</p>
+                        {% else %}
+                            <p>Lost in the leagues</p>
+                        {% endif %}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</div>

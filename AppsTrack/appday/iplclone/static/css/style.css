@@ -1,0 +1,108 @@
+html, body {
+    width: 100%;
+}
+
+#main {
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.seasons {
+    width: 100%;
+    padding: 0;
+}
+
+.winner {
+    background-color: #00d1b2;
+}
+
+.icon {
+    height: 15px;
+    width: 15px;
+}
+
+#main {
+    padding-top: 3%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo {
+    color: #ffffff;
+}
+
+.pagination-input {
+    width: 80px;
+}
+
+#seasons-heading {
+    align-items: center;
+    justiry-content: center;
+    margin: 0 auto;
+}
+
+#seasons-pagination-season {
+    margin-top: 2%;
+    display: flex;
+}
+
+.ball-indicator {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-size: 10;
+}
+
+.match-vs {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#match-vs-title {
+    margin-bottom: 4%;
+}
+
+.team-heading {
+    display: inline-block;
+    /*color: rgba(0, 0, 0, 0);
+    font-size: 90px;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/Mumbai_Indians_Logo.svg/1200px-Mumbai_Indians_Logo.svg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;*/
+}
+
+.navbar-item {
+    color: #ffffff;
+}
+
+#team-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#team-timeline {
+    border-left: 2px solid #0b0c10;
+}
+
+#team-name {
+    display: flex;
+}
+
+#team-name > h1 {
+    animation: animateright 1.5s;
+}
+
+.timeline-content > p {
+    animation: animateleft 2s;
+}

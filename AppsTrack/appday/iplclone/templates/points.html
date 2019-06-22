@@ -1,0 +1,36 @@
+{% load static %}
+
+<div class="row" id="seasons-heading">
+    <div class="column">
+        <h1 class="title is-1">Points for the season {{ year }}</h1>
+    </div>
+</div>
+
+<div class="row select">
+    <select class="select" onchange="location = this.value;" id="season-select-input">
+        {% for s_year in years %}
+            <option value="{% url 'points' %}?year={{ s_year.0 }}" {% if s_year.0 == year %} selected="selected" {% endif %}>
+                {{ s_year.0 }}
+            </option>
+        {% endfor %}
+    </select>
+</div>
+
+<div class="row">
+    <div class="points">
+        <table class="table is-fullwidth is-striped">
+            <tr>
+                <th>Team</th>
+                <th>Points</th>
+            </tr>
+
+            {% for team in teams %}
+                <tr>
+                    <td>{{ team.name }}</td>
+                    <td>{{ team.points }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+
+    </div>
+</div>

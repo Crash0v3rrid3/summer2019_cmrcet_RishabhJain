@@ -1,0 +1,117 @@
+
+<div class="match-vs">
+    <div class="row" id="match-vs-title">
+        <div class="title is-1">
+            <div class="team-heading">
+                <h1 class="team-heading">{{ match.team1.name }}</h1></div> vs
+            <div class="team-heading">
+                <h1 class="team-heading">{{ match.team2.name }}</h1></div>
+        </div>
+    </div>
+    <div id="team-compare-table">
+        <table>
+            <tr>
+                <td colspan="3">
+                    {% if match.winner %}
+                        {{ match.team1.name }}
+                    {% else %}
+                        {{ match.team2.name }}
+                    {% endif %}
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">Man of the Match - {{ match.player_of_match.name }}</td>
+            </tr>
+        </table>
+    </div>
+    <div class="tabs is-medium is-centered">
+        <ul>
+            <li>
+                <a onclick="document.getElementById('team2-tab').hidden = true; document.getElementById('team1-tab').hidden = false;">
+                    {{ match.team1.name }}
+                </a>
+            </li>
+            <li>
+                <a onclick="document.getElementById('team1-tab').hidden = true; document.getElementById('team2-tab').hidden = false;">
+                    {{ match.team2.name }}
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="row" id="match-tabs">
+        <div id="team1-tab">
+            <div class="match-total-score">
+                <p>Total Score: {{ team1_total_runs.0 }} (+{{ team1_total_runs.1 }})</p>
+            </div>
+
+            <h3 class="title is-3">Top 3 run scorers</h3>
+            <div class="top-3-scorers">
+                {% for player in team1_top_run_scorers %}
+                    <p>{{ player.batsman.name }} - {{ player.total_score }}</p>
+                {% endfor %}
+            </div>
+
+            <h3 class="title is-3">Top 3 wicket takers</h3>
+            <div class="top-3-wicket-takers">
+                {% for player in team1_top_wicket_takers %}
+                    <p>{{ player.bowler.name }} - {{ player.total_wickets }}</p>
+                {% endfor %}
+            </div>
+
+            <div class="match-balls">
+                {% for over in team1_overs %}
+                    <tr class="over-indicator">
+                        {% for ball in over %}
+                            <td class="ball-indicator">
+                                {% if ball|getattr_or_none:'dismissal' %}
+                                    W
+                                {% else %}
+                                    {{ ball.runs.total_runs }}
+                                {% endif %}
+                            </td>
+                        {% endfor -%}
+                    </tr>
+                <br>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div id="team2-tab" hidden>
+            <div class="match-total-score">
+                <p>Total Score: {{ team2_total_runs.0 }} (+{{ team2_total_runs.1 }})</p>
+            </div>
+
+            <h3 class="title is-3">Top 3 run scorers</h3>
+            <div class="top-3-scorers">
+                {% for player in team2_top_run_scorers %}
+                    <p>{{ player.batsman.name }} - {{ player.total_score }}</p>
+                {% endfor %}
+            </div>
+
+            <h3 class="title is-3">Top 3 wicket takers</h3>
+            <div class="top-3-wicket-takers">
+                {% for player in team2_top_wicket_takers %}
+                    <p>{{ player.bowler.name }} - {{ player.total_wickets }}</p>
+                {% endfor %}
+            </div>
+
+            <div class="match-balls">
+                {% for over in team2_overs %}
+                    <tr class="over-indicator">
+                        {% for ball in over %}
+                            <td class="ball-indicator">
+                                {% if ball|getattr_or_none:'dismissal' %}
+                                    W
+                                {% else %}
+                                    {{ ball.runs.total_runs }}
+                                {% endif %}
+                            </td>
+                        {% endfor -%}
+                    </tr>
+                <br>
+                {% endfor %}
+            </div>
+
+        </div>
+    </div>
+</div>

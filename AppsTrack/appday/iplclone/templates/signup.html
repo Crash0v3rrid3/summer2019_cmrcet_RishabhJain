@@ -1,0 +1,26 @@
+<div id="register-form">
+    <div class="row">
+        <div class="column">
+            <h4 class="title is-4">Sign Up</h4>
+        </div>
+    </div>
+    <div class="row form">
+        <div class="column">
+            <form method="post" id="registration-form">
+                {% include 'message.html' %}
+                <div class="form-element">{{ form.first_name }}</div>
+                <div class="form-element">{{ form.last_name }}</div>
+                <div class="form-element">{{ form.email }}</div>
+                <div class="form-element">{{ form.username }}</div>
+                <div class="form-element">{{ form.password }}</div>
+                <div class="form-element"><input type="submit" value="Sign Up" class="button is-primary"></div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <a href="{% url 'login' %}">Back to login</a>
+        </div>
+    </div>
+
+</div>

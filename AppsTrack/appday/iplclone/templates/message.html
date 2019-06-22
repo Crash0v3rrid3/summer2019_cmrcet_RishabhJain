@@ -1,0 +1,27 @@
+{% if success == True %}
+    <div class="message is-success form-element">
+        <div class="message-header">
+            <p>Success!</p>
+        </div>
+            {% if messages %}
+                <div class="message-body">
+                    {% for message in messages %}
+                        <span>{{ message }}</span>
+                    {% endfor %}
+                </div>
+            {% endif %}
+    </div>
+{% elif success == False %}
+    <div class="message is-danger form-element">
+        <div class="message-header">
+            <p>Failed!</p>
+        </div>
+        {% if messages %}
+            <div class="message-body">
+                    {% for message in messages %}
+                        <span>{{ message }}</span>
+                    {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+{% endif %}
