@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "limited_size_sorting", "limited_size_sorting\limited_size_sorting.vcxproj", "{67EBED49-C8D0-4CFD-B65B-3580F27D5AF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "anagram_search", "Project1\Project1.vcxproj", "{DFA60E07-49E3-4334-998D-B8C7A8743A13}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calender", "calender\calender.vcxproj", "{9A449CA1-585A-4474-BDA2-27255A8354EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67EBED49-C8D0-4CFD-B65B-3580F27D5AF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67EBED49-C8D0-4CFD-B65B-3580F27D5AF6}.Debug|Win32.Build.0 = Debug|Win32
+		{67EBED49-C8D0-4CFD-B65B-3580F27D5AF6}.Release|Win32.ActiveCfg = Release|Win32
+		{67EBED49-C8D0-4CFD-B65B-3580F27D5AF6}.Release|Win32.Build.0 = Release|Win32
+		{DFA60E07-49E3-4334-998D-B8C7A8743A13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFA60E07-49E3-4334-998D-B8C7A8743A13}.Debug|Win32.Build.0 = Debug|Win32
+		{DFA60E07-49E3-4334-998D-B8C7A8743A13}.Release|Win32.ActiveCfg = Release|Win32
+		{DFA60E07-49E3-4334-998D-B8C7A8743A13}.Release|Win32.Build.0 = Release|Win32
+		{9A449CA1-585A-4474-BDA2-27255A8354EF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9A449CA1-585A-4474-BDA2-27255A8354EF}.Debug|Win32.Build.0 = Debug|Win32
+		{9A449CA1-585A-4474-BDA2-27255A8354EF}.Release|Win32.ActiveCfg = Release|Win32
+		{9A449CA1-585A-4474-BDA2-27255A8354EF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

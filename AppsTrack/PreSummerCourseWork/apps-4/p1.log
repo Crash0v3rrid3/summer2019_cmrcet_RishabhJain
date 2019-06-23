@@ -1,0 +1,112 @@
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6
+info::entering method p1.m1.f1
+warning::this is a log from p1.m1.f1 at warning level
+error:this is a log from p1.m1.f1 at error level
+info::exiting method p1.m1.f1
+info::entering method p1.m1.f2
+warning::this is a log from p1.m1.f2 at warning level
+error:this is a log from p1.m1.f2 at error level
+info::exiting method p1.m1.f2
+info::entering method p1.m3.f5
+warning::this is a log from p1.m3.f5 at warning level
+error:this is a log from p1.m3.f5 at error level
+info::exiting method p1.m3.f5
+info::entering method p1.p3.m4.f6
+warning::this is a log from p1.p3.m4.f6 at warning level
+error:this is a log from p1.p3.m4.f6 at error level
+info::exiting method p1.p3.m4.f6

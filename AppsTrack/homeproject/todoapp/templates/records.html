@@ -1,0 +1,50 @@
+{% load apptags %}
+    <div class="row">
+        <div class="column" id="main-college-heading">
+            <h1 class="title is-4"> {{ heading }} </h1>
+        </div>
+        <div id="add-college-button">
+            {% if 'todoapp.add_'|concat:entity in permissions %}
+                {% if id is not None %}
+                    <a class="button is-link" href="{% url add_url id %}">+ Add {{ entity }}</a>
+                {% else %}
+                    <a class="button is-link" href="{% url add_url %}">+ Add {{ entity }}</a>
+                {% endif %}
+            {% endif %}
+        </div>
+    </div>
+    <div id="student-table-div" class="row">
+        <table id="student-table" class="table is-striped is-narrow is-hoverable is-fullwidth">
+            <tr>
+                {% for field in fields %}
+                    <th>{{ field }}</th>
+                {% endfor %}
+                <th></th>
+            </tr>
+            {% for record in records %}
+                <tr>
+                    {% for fieldValue, field_url in record|getargs_2:field_urls %}
+                        {% if field_url is not None %}
+                        <td>
+                            <a href="{% url field_url record.id %}">
+                                {{ fieldValue }}
+                            </a>
+                        </td>
+                        {% else %}
+                            <td>{{ fieldValue }}</td>
+                        {% endif %}
+                    {% endfor %}
+                    <td>
+                        {% if 'todoapp.change_'|concat:entity in permissions and 'todoapp.delete_'|concat:entity in permissions %}
+                            {% if id %}
+                                <a href="{% url edit_url id record.id %}">edit</a> |
+                                <a href="{% url delete_url id record.id %}">delete</a>
+                            {% else %}
+                                <a href="{% url edit_url record.id %}">edit</a> |
+                                <a href="{% url delete_url record.id %}">delete</a>
+                            {% endif %}
+                        {% endif %}
+                    </td>
+            {% endfor %}
+        </table>
+    </div>

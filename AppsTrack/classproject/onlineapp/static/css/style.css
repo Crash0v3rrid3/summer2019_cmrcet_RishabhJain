@@ -1,0 +1,89 @@
+html, body {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    background-color: #00d1b2;
+    padding: 10px;
+    padding-right: 20px;
+}
+
+#header a {
+    color: #ffffff;
+}
+
+#logo {
+    width: 50%;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#login-logout {
+    width: 50%;
+    display: inline;
+}
+
+#login-logout a {
+    float: right;
+}
+
+#main {
+    height: 100%;
+    //padding: 0;
+    //margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+}
+
+#main-college-heading {
+    text-align: center;
+}
+
+row {
+    align-content: center;
+}
+
+#add-college-button {
+    width: 60%;
+    margin: 10px auto;
+}
+
+#student-table-div {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-college-form-div {
+    margin: 0 auto;
+    align-items: center;
+    //width: 400px;
+}
+
+.add-college-input-div {
+    margin: 5px;
+}
+
+
+.message, .add-college-input {
+    margin: 0 auto;
+}
+
+#login-form, #registration-form {
+    padding: 0;
+}
+
+.form-element {
+    width: 100%;
+    margin: 0;
+    margin: 10px;
+}

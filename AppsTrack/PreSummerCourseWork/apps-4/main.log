@@ -1,0 +1,28 @@
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>
+info::entering method __main__.<module>
+warning::this is a log from __main__.<module> at warning level
+error:this is a log from __main__.<module> at error level
+info::exiting method __main__.<module>

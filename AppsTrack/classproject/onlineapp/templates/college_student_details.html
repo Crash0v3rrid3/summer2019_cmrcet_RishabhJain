@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    {% load static %}
+    <head>
+        <title>{{ title }}</title>                                                                                                                                  </title>
+        <link rel="stylesheet" href="{% static "css/style.css" %}" />
+        <link rel="stylesheet" href="{% static "css/bulma.css" %}" />
+        <!--<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>-->
+    </head>
+    <body>
+        <div id="main">
+            <div class="row">
+                <div class="column" id="main-college-heading">
+                    <h1 class="title is-5">Students in {{ collegeName }}</h1>
+                </div>
+                <div id="add-college-button">
+                    <a class="button is-link">+ Add Student</a>
+                </div>
+            </div>
+            <div id="student-table-div" class="row">
+                <table id="student-table" class="table is-striped is-narrow is-hoverable is-fullwidth">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Total Marks</th>
+                    </tr>
+                    {% for student in students %}
+                        <tr>
+                            <td> {{ student.name }}</td>
+                            <td> {{ student.email }}</td>
+                            <td> {{ student.mocktest1__total }} </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+    </body>
+</html>
