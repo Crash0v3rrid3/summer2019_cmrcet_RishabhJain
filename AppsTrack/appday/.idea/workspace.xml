@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b480e0-5bcb-4cc1-998a-664ffd8b751e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/iplclone/templates/_base1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appday/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/appday/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/0013_auto_20190620_2208.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/0014_auto_20190620_2209.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/0015_auto_20190620_2210.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/0016_remove_runs_bal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/templates/points.html" beforeDir="false" afterPath="$PROJECT_DIR$/iplclone/templates/points.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/templates/season_abstract.html" beforeDir="false" afterPath="$PROJECT_DIR$/iplclone/templates/season_abstract.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/iplclone/views/homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/iplclone/views/homepage.py" afterDir="false" />
-    </list>
+    <list default="true" id="a1b480e0-5bcb-4cc1-998a-664ffd8b751e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -437,7 +426,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1548" height="831" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30291006" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
