@@ -81,7 +81,6 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'iplclone',
         'HOST': '127.0.0.1',
-        #'CONN_MAX_AGE': 1234567893456784567840,
         'USER':"root",
         'PASSWORD': "hello123"
     }
